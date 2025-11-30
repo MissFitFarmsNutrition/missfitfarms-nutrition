@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Miss Fit Farms Nutrition</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="shop.html">Shop</a> |
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>We'd love to hear from you!</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Miss Fit Farms Nutrition</p>
+  </footer>
+</body>
+</html>
